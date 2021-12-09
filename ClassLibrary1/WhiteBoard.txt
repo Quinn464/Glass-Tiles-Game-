@@ -1,0 +1,9 @@
+﻿
+
+Game loop>
+take in user input (jump right or left)
+update (rng decides wther glass broke or not)
+Rerender (display new player postion or display player has died)
+
+setCusorPostion (how to nav the glass tiles maybe??
+)
