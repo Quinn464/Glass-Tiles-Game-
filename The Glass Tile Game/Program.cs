@@ -4,6 +4,7 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
+
 namespace The_Glass_Tile_Game
 {
     internal class Program
@@ -14,7 +15,12 @@ namespace The_Glass_Tile_Game
             do
             {
                 RenderGlassTiles();
-                RNG();
+                CheckForDeath();
+                
+
+
+
+               
 
                 //get users input 
                 string userInput = Console.ReadLine().ToLower();
@@ -74,21 +80,29 @@ namespace The_Glass_Tile_Game
             //User instructions on how to move 
             Console.Clear();
             Console.WriteLine("Press R to jump right\n" +
-                "Press L to jump left");
+                "Press L to jump left\n" +
+                "Roll a 7 or more to survive jump\n" +
+                "Roll a 6 or below and the glass will break GAME OVER!");
             //Draw up glass tiles
 
            
 
-            Console.WriteLine("         L         R");
-            Console.WriteLine("         []   |   []");
-            Console.WriteLine("         []   |   []");
-            Console.WriteLine("         []   |   []");
-            Console.WriteLine("         []   |   []");
-            Console.WriteLine("         []   |   []");
+            Console.WriteLine("                        L         R");
+            Console.WriteLine("                        []   |   []");
+            Console.WriteLine("                        []   |   []");
+            Console.WriteLine("                        []   |   []");
+            Console.WriteLine("                        []   |   []");
+            Console.WriteLine("  Current tile choice you're on ^^^ keep going!");
+           
 
         }
-        static void RNG()
+
+
+
+
+        static void CheckForDeath()
         {
+            Console.ReadKey();
             //                              seed RNG 
             Random random = new Random();
             int num = random.Next(1,13);
@@ -98,10 +112,10 @@ namespace The_Glass_Tile_Game
                 Console.WriteLine($"You rolled a {num} you fell to your death");
 
 
-            for (int i = 0; i < 1; i++)
-            {
-                Console.WriteLine(random.Next(1, 11));
-            }
+            //for (int i = 0; i < 1; i++)
+            //{
+            //    Console.WriteLine(random.Next(1, 11));
+            //}
 
 
 
@@ -116,9 +130,13 @@ namespace The_Glass_Tile_Game
 
             }
         }
-      
+        static void CheckForWin()
+        {
+            Console.WriteLine("The game has begun!");
+
+           
 
 
-
-    }
+        }
+      }  
 }

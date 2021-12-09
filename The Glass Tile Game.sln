@@ -5,8 +5,6 @@ VisualStudioVersion = 17.0.31912.275
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "The Glass Tile Game", "The Glass Tile Game\The Glass Tile Game.csproj", "{58A961C8-3A5E-489D-B264-41B15E93EB08}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ClassLibrary1", "ClassLibrary1\ClassLibrary1.csproj", "{52F34FFF-B055-4A31-8449-CF8457F7C110}"
-EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -17,10 +15,6 @@ Global
 		{58A961C8-3A5E-489D-B264-41B15E93EB08}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{58A961C8-3A5E-489D-B264-41B15E93EB08}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{58A961C8-3A5E-489D-B264-41B15E93EB08}.Release|Any CPU.Build.0 = Release|Any CPU
-		{52F34FFF-B055-4A31-8449-CF8457F7C110}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{52F34FFF-B055-4A31-8449-CF8457F7C110}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{52F34FFF-B055-4A31-8449-CF8457F7C110}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{52F34FFF-B055-4A31-8449-CF8457F7C110}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
