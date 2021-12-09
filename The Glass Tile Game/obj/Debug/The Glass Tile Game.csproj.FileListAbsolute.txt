@@ -1,8 +1,0 @@
-C:\Users\quinn\source\repos\The Glass Tile Game\The Glass Tile Game\bin\Debug\The Glass Tile Game.exe.config
-C:\Users\quinn\source\repos\The Glass Tile Game\The Glass Tile Game\bin\Debug\The Glass Tile Game.exe
-C:\Users\quinn\source\repos\The Glass Tile Game\The Glass Tile Game\bin\Debug\The Glass Tile Game.pdb
-C:\Users\quinn\source\repos\The Glass Tile Game\The Glass Tile Game\obj\Debug\The Glass Tile Game.csproj.AssemblyReference.cache
-C:\Users\quinn\source\repos\The Glass Tile Game\The Glass Tile Game\obj\Debug\The Glass Tile Game.csproj.SuggestedBindingRedirects.cache
-C:\Users\quinn\source\repos\The Glass Tile Game\The Glass Tile Game\obj\Debug\The Glass Tile Game.csproj.CoreCompileInputs.cache
-C:\Users\quinn\source\repos\The Glass Tile Game\The Glass Tile Game\obj\Debug\The Glass Tile Game.exe
-C:\Users\quinn\source\repos\The Glass Tile Game\The Glass Tile Game\obj\Debug\The Glass Tile Game.pdb
