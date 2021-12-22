@@ -9,6 +9,35 @@ namespace The_Glass_Tile_Game
 {
     internal class Program
     {
+//             xxxxxx          xxx
+//    xxxxxxxxx       xxx xxx      x          xxxxxxxxxx         x
+//    xx     xx      xxx    xx    xx      x     x                xxxx
+//    xx            xxx      x    x      xx     x                x   xxxxx
+//     xx           xx       x    x      x      x                x        xx
+//      xxxxx       xx       x    x      x      x                x          xx
+//       xxxxxx     xx       x    x      x       x               x           xx
+//          xxxx    x        x    x      x       x                x           x
+//            xx    x     xxxx    xx    x        xx               x           x
+//    xx      xx    x      xxxx    x   xx         x               x           x
+//    xxxxxxxxxx    xxx   xx xxx   xxxxx          x               x           x
+//      xxxxxxx       xxxxx    x    xx         x  x               x          x
+//                                             xxxxxxx xxxxxxx    x   xxxxxxx
+//                    x                                           x
+//                    xx
+//   xxxxxxxxx        xxx           x
+// xx        x        x x           xx     x      x  xxxxxxx    xxxxxxxx
+// x                 xx  x          xx     x      xxx      x    x
+//xx                 x    x         xx    xxx     x             xx
+//x                 x     xx        x x   x x     xx             xxx
+//x      xxxxxxx    xxxxxxxx       xx x  xx x      x  xxxxxxx      xxxx
+// x           xx  x        x      x  xx x   x     xxx                 xxx
+//  x           x  x        xx    xx   x x   xx    x                     x
+//   xxx       xx  x         x    xx   xxx    x    xx                   xx
+//     xxxxxxxxx                  x           xx    xxxxxxxxx        xxx
+//         xx                                       x           xxxxxx
+//                                                  x
+
+
         static void Main(string[] args)
         {
             // Game loop 
@@ -17,7 +46,7 @@ namespace The_Glass_Tile_Game
                 RenderGlassTiles();
                 CheckForDeath();
                 
-
+                //I want to remove this by pulling
 
 
                
@@ -79,7 +108,12 @@ namespace The_Glass_Tile_Game
         {
             //User instructions on how to move 
             Console.Clear();
-            Console.WriteLine("Press R to jump right\n" +
+            Console.WriteLine("\n" +
+                "\nEndless Runner Glass Tile Game" +
+                "\n" +
+                "\n" +
+                "\nInstructions:" +
+                "\nPress R to jump right\n" +
                 "Press L to jump left\n" +
                 "Roll a 7 or more to survive jump\n" +
                 "Roll a 6 or below and the glass will break GAME OVER!");
@@ -87,6 +121,7 @@ namespace The_Glass_Tile_Game
 
            
 
+          
             Console.WriteLine("                        L         R");
             Console.WriteLine("                        []   |   []");
             Console.WriteLine("                        []   |   []");
@@ -107,9 +142,11 @@ namespace The_Glass_Tile_Game
             Random random = new Random();
             int num = random.Next(1,13);
             if(num > 6)
-                Console.WriteLine($"You rolled a {num} the glass tile held.");
+                Console.WriteLine($"\n" +
+                    $"You rolled a {num} the glass tile held press enter to proceed");
             else
-                Console.WriteLine($"You rolled a {num} you fell to your death");
+                Console.WriteLine($"\n" +
+                    $"You rolled a {num} you fell to your death press enter to play again");
 
 
             //for (int i = 0; i < 1; i++)
@@ -119,7 +156,7 @@ namespace The_Glass_Tile_Game
 
 
 
-            Console.ReadLine();
+           
 
         }
         static void PlayerIsAlive()
