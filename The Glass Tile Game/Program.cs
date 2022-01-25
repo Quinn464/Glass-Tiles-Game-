@@ -36,7 +36,7 @@ namespace The_Glass_Tile_Game
 //     xxxxxxxxx                  x           xx    xxxxxxxxx        xxx
 //         xx                                       x           xxxxxx
 //                                                  x
-
+//Typing=====================================================================================
 
         static void Main(string[] args)
         {
